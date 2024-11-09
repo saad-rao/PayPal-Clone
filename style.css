@@ -1,0 +1,643 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: PayPalSansBig-Light, Helvetica Neue, Arial, sans-serif;;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: #001c64;
+}
+
+
+html, body{
+    height: 100%;
+    width: 100%;
+
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    /* background-color: #001c64; */
+}
+
+.nav{
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    
+    
+}
+
+.nav-part-2 ul{
+    display: flex;
+    gap: 4vw;
+    align-items: center;
+    
+}
+
+.main .nav .nav-part-2 ul li a:hover{
+    color: #1072eb;
+    border-radius: 35px;
+
+}
+
+.nav-part-3{
+    display: flex;
+    gap: 4vw;
+}
+
+.main .nav .logo img{
+    width: 100px;
+
+}
+
+.main .nav .nav-part-2 ul{
+    font-size: 1.5vw;
+    font-weight: 700;
+    
+}
+
+.main .nav .nav-part-3 .login{
+    border: 2.5px solid #003087;
+    padding: 10px 27px;
+    border-radius: 70px;
+    text-align: center;
+    font-size: 1.5vw;
+    color:#003087;
+    font-weight: bold;
+    text-align: center; &:hover{
+        color:#1072eb ;
+        cursor: pointer;
+    }
+}
+
+.main .nav .nav-part-3 .signup{
+    border: 1px solid #003087;
+  padding: 10px 20px;
+  border-radius: 70px;
+  text-align: center;
+  font-size: 1.5vw;
+  font-weight: bold;
+  background-color: #003087;
+color: #fff;
+  text-align: center; &:hover{
+    background-color: #1072eb;
+    cursor: pointer;
+  }
+}
+
+.nav i{
+    font-size: 2vw;
+    display: none;
+
+}
+
+
+.content{
+    width: 100%;
+    background-color: #001c64;
+    height: calc(100% - 100Px);
+    display: flex;
+
+}
+
+
+.left{
+    height: 100%;
+    width: 50%;
+    padding: 6vw;
+}
+
+.left h1{
+    font-size: 4.5vw;
+    color: white;
+    
+}
+
+
+.left p{
+    font-size: 1.5vw;
+    margin-top: 4vw;
+    color: #56FFCE;&:hover{
+        cursor: pointer;
+        text-decoration: underline;
+    }
+}
+
+.right{
+height: 100%;
+width: 50%;
+
+}
+
+.right img{
+    width: 90%;
+    height: 100%;
+}
+
+.content-2{
+    width: 100%;
+    height:100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-bottom: 2px solid #dadada;
+}
+
+.content-2 .link{
+    color:#1072eb;
+    font-size: 1.5vw;&:hover{
+        cursor: pointer;
+        color: #003087;
+        text-decoration: underline;
+    }
+}
+
+.content-2 p{
+    font-size: 1.5vw;
+}
+
+.cards{
+    width: 100%;
+    height:100%;
+    display: flex;
+    
+}
+
+.left-wrapper{
+    width: 50%;
+    height: 100%;
+}
+
+.right-wrapper{
+    width: 50%;
+    height: 100%;
+    padding: 10vw;
+}
+
+.left-wrapper img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    padding: 5vw;
+    margin: 10px;
+}
+
+.right-wrapper h3{
+    font-size: 2.5vw;
+}
+
+.span{
+    line-height: 35px;
+    color:  #4A4A4A;
+    font-size: .8rem;
+}
+
+.right-wrapper p{
+    font-size: 1.2vw;
+    margin-top: 2vw;
+    line-height: 2.5vw;
+    margin-bottom: 2vw;
+}
+
+.link{
+    color: #1072eb;&:hover{
+        cursor: pointer;
+        color: #003087;
+        text-decoration: underline;
+    }
+}
+
+.partner-ships{
+    width: 100%;
+    height: 100px;
+    display: flex;
+}
+
+.partner-ships-text{
+    width: 40%;
+    height:100%;
+    padding: 5vw;
+    font-size: 3.5vw
+}
+
+.partner-ships-logos{
+    width: 60%;
+    height: 100%;
+    text-align: center;
+
+}
+
+.footer{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    padding: 10vw;
+  /* margin-left: 100px; */
+  margin-top: 80px;
+  }
+  
+  .footer .logo img{
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    display: flex;
+    justify-content: center;
+    
+  
+  }
+  
+  .footer .footer-main-ul ul{
+    display: flex;
+    gap: 30px;
+  
+  }
+
+
+  .footer .footer-main-ul ul li{
+   
+    font-weight: bold;&:hover{
+        text-decoration: underline;
+        color: #001c64;
+    }
+  }
+  
+  .footer .footer-secondary-ul ul li{
+    font-weight: bold;&:hover{
+        text-decoration: underline;
+        color: #001c64;
+    }
+  }
+
+  .footer .copy-right-section ul li a{
+    font-weight: bold;&:hover{
+        text-decoration: underline;
+        color: #001c64;
+    }
+  }
+  
+
+  .footer .footer-secondary-ul ul{
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+  }
+
+
+  
+  .footer .copy-right-section ul{
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+  
+  }
+  
+  .line{
+  border: 1px solid #dadada;
+  margin-top: 20px;
+  width: 70%;
+  }
+
+.line2{
+    display: none;
+    border: 1px solid #dadada;
+    margin-top: 20px;
+    width: 70%;
+  }
+
+
+@media screen and (max-width:575px) {
+    .nav{
+padding: 0 5vw;
+height: 70px;
+    }
+
+    .nav-part-2 ul{
+        font-size: 4vw;
+        display: none;
+    }
+
+    .nav i{
+        display: block;
+        font-size: 6vw;
+    }
+    .main .nav .nav-part-3 .login{
+        font-size: 3vw;
+    }
+
+    .main .nav .nav-part-3 .signup{
+        font-size: 3vw;
+    }
+
+    .content{
+        height: calc(100% - 70px);
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .left{
+        width: 100%;
+        height: 45%;
+    
+    }
+
+    .right {
+        width: 100%;
+        height: 55%;
+        margin-bottom: 100vw;
+    }
+
+    .right img{
+        object-fit: contain;
+    }
+    
+
+    .left h1{
+        font-size: 6vw;
+
+    }
+
+    
+.left p{
+    
+    font-size: vw;
+    margin-top: 4vw;
+}
+
+
+.content-2{
+    height:100px;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+.content-2 p{
+    font-size: 4vw;
+}
+
+.content-2 .link{
+    font-size: 3vw;
+}
+
+.cards{
+    height: 100%;
+    flex-direction: column;
+    text-align: left;
+}
+
+.left-wrapper{
+    width: 100%;
+    height: 45%;
+
+}
+
+.right-wrapper{
+    width: 100%;
+    height: 55%;
+}
+
+.right-wrapper h3{
+    font-size: 5.2vw;
+}
+
+
+.right-wrapper p{
+    line-height:5vw ;
+    text-align: left;
+    font-size: 3vw;
+    
+}
+
+.partner-ships{
+    height: 100%;
+    width: 100%;
+    flex-wrap: nowrap;
+}
+
+.partner-ships-text{
+    width: 100%;
+    height:100%;
+    text-align: left;
+    font-size: 5vw;
+}
+
+.partner-ships-logos{
+    width: 100%;
+    height: 100%;
+
+
+
+
+}
+
+.footer{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.footer .logo img{
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+
+.footer .footer-main-ul ul{
+    flex-wrap: wrap;
+}
+
+
+.footer .footer-secondary-ul ul{
+    flex-wrap: wrap;
+    
+}
+
+.footer .copy-right-section ul{
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.line{
+    width: 100%;
+}
+
+.line2{
+    display: block;
+    width: 100%;
+}
+}
+
+
+@media screen and (max-width:768px) {
+    .nav{
+padding: 0 5vw;
+height: 70px;
+    }
+
+    .nav-part-2 ul{
+        font-size: 2vw;
+        display: none;
+    }
+
+    .nav i{
+        display: block;
+        font-size: 3vw;
+    }
+
+
+    .main .nav .nav-part-3 .login{
+        font-size: 1.5vw;
+    
+    }
+
+    .main .nav .nav-part-3 .signup{
+        font-size: 1.5vw;
+       
+    }
+
+    .content{
+        height: calc(100% - 70px);
+        flex-direction: column;
+        text-align: center;
+    }
+
+
+
+    .left{
+        width: 100%;
+        height: 45%;
+    
+    }
+
+    .right {
+        width: 100%;
+        height: 55%;
+        margin-bottom: 100vw;
+    }
+
+    .right img{
+        object-fit: contain;
+    }
+    
+
+    .left h1{
+        font-size: 3vw;
+
+    }
+
+    
+.left p{
+    
+    font-size: 1.5vw;
+    margin-top: 4vw;
+}
+
+
+.content-2{
+    height:100px;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+.content-2 p{
+    font-size: 2vw;
+}
+
+.content-2 .link{
+    font-size: 1.5vw;
+}
+
+.cards{
+    height: 100%;
+    text-align: left;
+}
+
+.left-wrapper{
+    width: 100%;
+    height: 45%;
+
+}
+
+.right-wrapper{
+    width: 100%;
+    height: 55%;
+}
+
+.right-wrapper h3{
+    font-size: 3vw;
+}
+
+
+.right-wrapper p{
+    line-height:2.5vw;
+    font-size: 2vw;
+    
+}
+
+
+
+.partner-ships{
+    width: 100%;
+    height: 80%;
+    flex-direction: column;
+}
+
+.partner-ships-text{
+    width: 100%;
+    height:40%;
+    text-align: center;
+    font-size: 3.5vw;
+
+}
+
+.partner-ships-logos{
+    width: 100%;
+    flex-wrap: wrap;
+    
+}
+
+.footer{
+    width: 100%;
+    height: 100%;
+}
+
+.footer .logo img{
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+
+.footer .footer-main-ul ul{
+    flex-wrap: wrap;
+}
+
+
+.footer .footer-secondary-ul ul{
+    flex-wrap: wrap;
+    
+}
+
+.footer .copy-right-section ul{
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.line{
+    width: 100%;
+}
+}
+
